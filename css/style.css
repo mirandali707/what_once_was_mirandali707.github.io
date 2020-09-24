@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Bagnard Sans";
+  src: url('../fonts/BagnardSans.otf') format('opentype');
+}
+@font-face {
+  font-family: "Bagnard";
+  src: url('../fonts/Bagnard.otf') format('opentype');
+}
+@font-face {
+  font-family: "Cotham Sans";
+  src: url('../fonts/CothamSans.otf') format('opentype');
+}
+
+/* body format */
+html, body {
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* navigation bar at top of page */
+nav {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #23221E;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #9F9F56;
+}
+
+#miranda {
+  font-size: 32px;
+  font-family: "Bagnard Sans";
+  color: #E44E5D;
+}
+
+#links {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.center-block {
+  display: flex;
+  justify-content: center;
+}
+
+.body-text {
+  max-width: 60vw;
+  font-weight: 200;
+  line-height: 200%;
+  letter-spacing: 1px;
+}
+
+.headline {
+  font-family: "Bagnard Sans", "Epilogue", sans-serif;
+  font-size: 64px;
+}
+
+.half-highlight {
+  background: linear-gradient(to top, #FFF185 50%, transparent 50%);
+}
