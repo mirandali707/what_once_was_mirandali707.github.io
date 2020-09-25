@@ -19,6 +19,7 @@ html, body {
 
 /* navigation bar at top of page */
 nav {
+  position: fixed;
   box-sizing: border-box;
   width: 100%;
   padding: 20px;
@@ -86,7 +87,7 @@ ul {
 
 .body-text a:hover {
   text-decoration: none;
-  color: red;
+  color: #EC838D;
 }
 
 /* .white-highlight {
@@ -98,7 +99,7 @@ ul {
   /* font-size: 64px; */
   font-size: 5vw;
   /* float: left; */
-  margin: 0px;
+  margin-top: 15vh;
 }
 
 .half-highlight {
@@ -116,7 +117,7 @@ ul {
   right: 10vw; */
   margin-left: -20vw;
   margin-right: -5vw;
-  margin-top: -24vh;
+  margin-top: -30vh;
   /* margin-top: -28vh; */
   z-index: -1;
 }
@@ -139,10 +140,17 @@ ul {
 
 #footer a {
   text-decoration: none;
-  color: #587A00
+  color: #587A00;
 }
 
 #footer a:hover {
   text-decoration: none;
-  color: #23221E
+  color: #23221E;
+}
+
+#big-asterisk {
+  font-family: Bagnard Sans;
+  font-weight: 700;
+  color: #0E3DBE;
+  font-size: 1.8vw;
 }
