@@ -65,18 +65,45 @@ ul {
   justify-content: center;
 }
 
+.narrow {
+  max-width: 70vw;
+
+}
+
 .body-text {
-  max-width: 60vw;
   font-weight: 200;
   line-height: 200%;
   letter-spacing: 1px;
+
+}
+
+.white-highlight {
+  background-color: white;
 }
 
 .headline {
   font-family: "Bagnard Sans", "Epilogue", sans-serif;
-  font-size: 64px;
+  /* font-size: 64px; */
+  font-size: 5vw;
+  /* float: left; */
 }
 
 .half-highlight {
   background: linear-gradient(to top, #FFF185 50%, transparent 50%);
+
+}
+
+#headshot {
+  position: relative;
+  width: max(20vw, 50px);
+  /* height: 20%; */
+  /* position: absolute; */
+  float: right;
+  /* top: 12vh;
+  right: 10vw; */
+  margin-left: -20vw;
+  margin-right: -5vw;
+  margin-top: -30vh;
+  /* margin-top: -28vh; */
+  z-index: -1;
 }
