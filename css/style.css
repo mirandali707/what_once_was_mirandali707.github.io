@@ -2,14 +2,14 @@
   font-family: "Bagnard Sans";
   src: url('../fonts/BagnardSans.otf') format('opentype');
 }
-@font-face {
+/* @font-face {
   font-family: "Bagnard";
   src: url('../fonts/Bagnard.otf') format('opentype');
 }
 @font-face {
   font-family: "Cotham Sans";
   src: url('../fonts/CothamSans.otf') format('opentype');
-}
+} */
 
 /* body format */
 html, body {
@@ -95,7 +95,7 @@ ul {
 } */
 
 .headline {
-  font-family: "Bagnard Sans", "Epilogue", sans-serif;
+  font-family: "Bagnard Sans", "Poppins", sans-serif;
   /* font-size: 64px; */
   font-size: 5vw;
   /* float: left; */
@@ -153,4 +153,14 @@ ul {
   font-weight: 700;
   color: #0E3DBE;
   font-size: 1.8vw;
+}
+
+.construction-site {
+  display: flex;
+  justify-content: center;
+}
+
+.construction-site p{
+  position: relative;
+  top: 45vh;
 }
