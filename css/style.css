@@ -14,7 +14,7 @@
 /* body format */
 html, body {
   font-family: "Poppins", sans-serif;
-
+  /* scroll-behavior: smooth; */
 }
 
 /* navigation bar at top of page */
@@ -30,21 +30,23 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #23221E;
+  /* color: #23221E; */
+  color: #587A00;
 }
 
 nav a:hover {
   text-decoration: none;
-  color: #9F9F56;
+  /* color: #9F9F56; */
+  color: #23221E;
 }
 
 #miranda {
   font-size: 32px;
   font-family: "Bagnard Sans";
-  color: #E44E5D;
+  color: #0E3DBE;
 }
 
-#links {
+.links {
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -56,7 +58,7 @@ nav a:hover {
 }
 
 ul {
-  list-style-type: none;
+  /* list-style-type: none; */
   margin: 0px;
 }
 
@@ -66,26 +68,37 @@ ul {
 }
 
 .narrow {
-  max-width: 70vw;
+  width: 67vw;
 
 }
 
 .body-text {
   font-weight: 200;
-  line-height: 200%;
+  line-height: 175%;
   letter-spacing: 1px;
-
 }
 
-.white-highlight {
+.body-text a {
+  text-decoration: none;
+  /* color: #0E3DBE; */
+  color: #E44E5D;
+}
+
+.body-text a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+/* .white-highlight {
   background-color: white;
-}
+} */
 
 .headline {
   font-family: "Bagnard Sans", "Epilogue", sans-serif;
   /* font-size: 64px; */
   font-size: 5vw;
   /* float: left; */
+  margin: 0px;
 }
 
 .half-highlight {
@@ -103,7 +116,33 @@ ul {
   right: 10vw; */
   margin-left: -20vw;
   margin-right: -5vw;
-  margin-top: -30vh;
+  margin-top: -24vh;
   /* margin-top: -28vh; */
   z-index: -1;
+}
+
+.narrower-left-justified {
+  width: 45vw;
+}
+
+#footer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#footer ul {
+  list-style-type: none;
+  text-align: right;
+  line-height: 150%;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #587A00
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: #23221E
 }
