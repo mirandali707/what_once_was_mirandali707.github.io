@@ -80,6 +80,11 @@ ul {
 
 }
 
+.main-content {
+  padding-top: 15vh;
+  width: 100%;
+}
+
 /* text formatting */
 .body-text {
   font-weight: 200;
