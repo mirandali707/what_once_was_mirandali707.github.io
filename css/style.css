@@ -47,6 +47,12 @@ nav a:hover {
   color: #0E3DBE;
 }
 
+#miranda:hover {
+  font-size: 32px;
+  font-family: "Bagnard Sans";
+  color: #23221E;
+}
+
 .links {
   margin: 0px;
   display: flex;
@@ -63,6 +69,7 @@ ul {
   margin: 0px;
 }
 
+/* body size constraints */
 .center-block {
   display: flex;
   justify-content: center;
@@ -73,6 +80,7 @@ ul {
 
 }
 
+/* text formatting */
 .body-text {
   font-weight: 200;
   line-height: 175%;
@@ -107,6 +115,18 @@ ul {
 
 }
 
+.narrower-left-justified {
+  width: 45vw;
+}
+
+#big-asterisk {
+  font-family: Bagnard Sans;
+  font-weight: 700;
+  color: #0E3DBE;
+  font-size: 1.8vw;
+}
+
+/* image formatting */
 #headshot {
   position: relative;
   width: max(20vw, 50px);
@@ -122,10 +142,7 @@ ul {
   z-index: -1;
 }
 
-.narrower-left-justified {
-  width: 45vw;
-}
-
+/* footer (contact, links) */
 #footer {
   position: fixed;
   bottom: 20px;
@@ -148,13 +165,7 @@ ul {
   color: #23221E;
 }
 
-#big-asterisk {
-  font-family: Bagnard Sans;
-  font-weight: 700;
-  color: #0E3DBE;
-  font-size: 1.8vw;
-}
-
+/* placeholder construction site text */
 .construction-site {
   display: flex;
   justify-content: center;
